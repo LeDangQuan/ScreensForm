@@ -1,6 +1,6 @@
 import { Text,View,Box } from "native-base";
 import React from "react";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+import Colors from "../color";
 import HomeProducts from "../Components/HomeProducts";
 import HomeSeach from "../Components/HomeSearch";
 

@@ -7,7 +7,7 @@ const products = [
         descrieption:
         "Lorem Ipsum is simply dummy text of printing and typesetting insdustry. Lorem ",
         price: 89,
-        countInSock: 3,
+        countInStock: 3,
         rating : 4,
         numReviews : 2,
        
@@ -21,7 +21,7 @@ const products = [
         descrieption:
         "Lorem Ipsum is simply dummy text of printing and typesetting insdustry. Lorem ",
         price: 599,
-        countInSock: 10,
+        countInStock: 10,
         rating : 2,
         numReviews : 2,
        
@@ -35,7 +35,7 @@ const products = [
         descrieption:
         "Lorem Ipsum is simply dummy text of printing and typesetting insdustry. Lorem ",
         price: 929,
-        countInSock: 0,
+        countInStock: 0,
         rating : 3.5,
         numReviews : 3,
        
@@ -49,11 +49,13 @@ const products = [
         descrieption:
         "Lorem Ipsum is simply dummy text of printing and typesetting insdustry. Lorem ",
         price: 399,
-        countInSock: 10,
+        countInStock: 10,
         rating : 5,
         numReviews : 9,
        
     },
+
+    
 ];
 
 export default products;

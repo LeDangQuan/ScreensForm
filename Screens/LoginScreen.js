@@ -7,7 +7,7 @@ import { Pressable } from "react-native";
 import Color from "../color";
 
 
-function LoginScreen(){
+function LoginScreen({navigation}){
     return (
     <Box flex ={1} bg={Colors.black}>
         <Image 
@@ -63,10 +63,11 @@ function LoginScreen(){
                 w="40%" 
                 rounded={50} 
                 bg={Colors.main}
+                onPress={() => navigation.navigate("Bottom")}
             >
                 LOGIN
             </Button>    
-            <Pressable mt={4}>
+            <Pressable mt={4} onPress={() => navigation.navigate("Register")}>
                 <Text color={Color.deepestGray}>SIGN UP</Text>
             </Pressable>
         </Box>
